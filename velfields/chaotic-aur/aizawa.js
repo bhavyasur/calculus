@@ -79,13 +79,13 @@ function setup() {
 
     attractor = new AizawaAttractor();
     // create gui (dat.gui)
-    /*let gui = new dat.GUI();
+    /*
+    let gui = new dat.GUI();
     gui.add(parDef, 'Attractor');
     gui.add(parDef, 'Speed', 0, 5, 0.01).listen();
     gui.add(parDef, 'Particles' );
     gui.add(parDef, 'Randomize'  );
     gui.add(parDef, 'Preset'  );
-    gui.add(this, 'backAttractors').name("Go Back");
     */
 
     pixelDensity(2); // This is to display correctly for Retina displays
@@ -320,9 +320,3 @@ class AizawaAttractor {
     }
 
 }
-
-/*
-function backAttractors () {
-    window.location.href = "https://jcponce.github.io/strange-attractors/#aizawa";
-}
-*/
