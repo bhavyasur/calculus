@@ -9,6 +9,7 @@
  Last update 12-July-2018
  */
 
+console.log("not sure if shit is happening")
 let numMax = 900; //Number of particles
 let t = 0;
 let h = 0.01;
